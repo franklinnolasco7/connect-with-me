@@ -38,5 +38,5 @@ This runs Prettier, ESLint, Vitest, TypeScript, and the production build.
 
 ## Deployment
 
-CI checks pull requests and pushes to `main`. Vercel deployment and domain
-setup are configured separately after the repository is connected.
+CI checks pull requests and pushes to `main`. Vercel builds with
+`npm run build`, publishes `dist`, and serves https://franklinks.tech.
