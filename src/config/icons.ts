@@ -1,29 +1,27 @@
+import { Phone, type LucideIcon } from "lucide-react"
+
 import {
-  CalendarDays,
-  FileText,
-  Github,
-  Globe2,
-  Instagram,
-  Linkedin,
-  Mail,
-  Music2,
-  NotebookText,
-  Phone,
-  type LucideIcon,
-} from "lucide-react"
+  GitHubIcon,
+  GmailIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  SpotifyIcon,
+  SteamIcon,
+  TwitterIcon,
+  WebsiteIcon,
+} from "@/components/icons/brand-icons"
 
 /** Add a Lucide import and map entry here to make an icon available to links. */
 export const profileIcons = {
-  calendar: CalendarDays,
-  file: FileText,
-  github: Github,
-  globe: Globe2,
-  instagram: Instagram,
-  linkedin: Linkedin,
-  mail: Mail,
-  music: Music2,
-  notebook: NotebookText,
+  steam: SteamIcon,
+  github: GitHubIcon,
+  gmail: GmailIcon,
+  instagram: InstagramIcon,
+  linkedin: LinkedInIcon,
+  spotify: SpotifyIcon,
   phone: Phone,
+  twitter: TwitterIcon,
+  website: WebsiteIcon,
 } satisfies Record<string, LucideIcon>
 
 export type ProfileIconName = keyof typeof profileIcons
