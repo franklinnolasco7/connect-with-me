@@ -59,7 +59,7 @@ export const profile = {
     {
       id: "devto",
       label: "dev.to",
-      href: "https://dev.to",
+      href: "https://dev.to/franklinnolasco7",
       icon: "devto",
       external: true,
     },
