@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="16" fill="#0b0b0b"/>
-  <path d="M20 14h27v9H30v8h14v9H30v12H20V14Z" fill="#f1f1f1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 -64 352 256" role="img" aria-label="FD icon" shape-rendering="crispEdges">
+  <title>FD icon</title>
+  <style>
+    path { fill: #18181b; }
+    @media (prefers-color-scheme: dark) { path { fill: #fafafa; } }
+  </style>
+  <path d="M0 0H96V32H32V64H80V96H32V128H0V0Z" />
+  <path d="M128 0H192V32H160V96H192V128H128V0ZM192 32H224V96H192V32Z" />
 </svg>
