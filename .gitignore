@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Production output
+dist/
+.vercel/
+
+# Test and tool output
+coverage/
+.vite/
+*.tsbuildinfo
+.eslintcache
+.prettier-cache
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
