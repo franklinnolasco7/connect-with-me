@@ -7,10 +7,10 @@ const details = {
 
 // This is the only file you need to edit to make the page yours.
 export const profile = {
-  name: "Frank",
-  handle: "@yourhandle",
-  initials: "FR",
-  avatarUrl: "",
+  name: "Franklin D. Nolasco",
+  handle: "@franklinnolasco7",
+  initials: "FDN",
+  avatarUrl: "/avatar.webp",
   details,
   links: [
     {
