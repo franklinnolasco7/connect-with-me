@@ -34,7 +34,14 @@ Also update the title and description in `index.html` before publishing.
 npm run check
 ```
 
-This runs Prettier, ESLint, Vitest, TypeScript, and the production build.
+This runs Prettier, ESLint, TypeScript, and the production build.
+
+CI also blocks high- and critical-severity dependency vulnerabilities. Run the
+same audit locally with:
+
+```bash
+npm run audit
+```
 
 ## Deployment
 
