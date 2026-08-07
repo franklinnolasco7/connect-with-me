@@ -51,7 +51,7 @@ export const profile = {
     {
       id: "twitter",
       label: "twitter",
-      href: "https://x.com/franklinN_dev",
+      href: "https://x.com/franklinolasco7",
       icon: "twitter",
       external: true,
     },
