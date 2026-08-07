@@ -37,7 +37,7 @@ export const profile = {
     {
       id: "instagram",
       label: "instagram",
-      href: "https://www.instagram.com/frank_dn3/",
+      href: "https://www.instagram.com/franklin_nolasco7/",
       icon: "instagram",
       external: true,
     },
