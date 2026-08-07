@@ -30,7 +30,7 @@ export const profile = {
     {
       id: "linkedin",
       label: "linkedin",
-      href: "https://linkedin.com/in/franklin-nolasco-b909b4235",
+      href: "https://www.linkedin.com/in/franklinnolasco7/",
       icon: "linkedin",
       external: true,
     },
