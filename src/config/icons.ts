@@ -1,6 +1,7 @@
 import { Phone, type LucideIcon } from "lucide-react"
 
 import {
+  CalIcon,
   DevToIcon,
   GitHubIcon,
   GmailIcon,
@@ -13,6 +14,7 @@ import {
 
 /** Add a Lucide import and map entry here to make an icon available to links. */
 export const profileIcons = {
+  cal: CalIcon,
   devto: DevToIcon,
   steam: SteamIcon,
   github: GitHubIcon,

@@ -7,9 +7,9 @@ const details = {
 
 // This is the only file you need to edit to make the page yours.
 export const profile = {
-  name: "Franklin D. Nolasco",
+  name: "Franklin Nolasco",
   handle: "@franklinnolasco7",
-  initials: "FDN",
+  initials: "FN",
   avatarUrl: "/avatar.webp",
   details,
   links: [
@@ -56,6 +56,12 @@ export const profile = {
       external: true,
     },
     {
+      id: "cal",
+      label: "cal.com",
+      href: "https://cal.com/franklinnolasco7",
+      icon: "cal",
+      external: true,
+    },
     {
       id: "devto",
       label: "dev.to",
